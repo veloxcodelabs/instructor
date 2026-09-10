@@ -9,6 +9,7 @@ from .async_validators import (
 )
 from instructor.v2.core.errors import AsyncValidationError
 from .llm_validators import Validator, llm_validator, openai_moderation
+from .memory_poisoning import SanitizedStr, validate_no_memory_poisoning
 
 __all__ = [
     "AsyncValidationContext",
@@ -20,4 +21,6 @@ __all__ = [
     "Validator",
     "llm_validator",
     "openai_moderation",
+    "SanitizedStr",
+    "validate_no_memory_poisoning",
 ]
