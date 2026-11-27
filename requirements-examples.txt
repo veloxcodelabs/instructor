@@ -1,10 +1,10 @@
-openai>=1.1.0
+openai>=3.57.0
 pydantic
 docstring-parser
 rich
 aiohttp
-ruff==0.15.10
-pre-commit==4.3.0
+ruff==0.17.6
+pre-commit==4.6.2
 typer
 cohere
 datasets
